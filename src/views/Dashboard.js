@@ -21,6 +21,8 @@ import React from "react";
 import { Line, Pie } from "react-chartjs-2";
 import hombre from "hombre.png";
 import mujer from "mujer.webp";
+import miguelmoran from "assets/img/miguelmoranv.jpg"
+import kennyny from "assets/img/Kennya_prof.jpg"
 // reactstrap components
 import {
   Card,
@@ -55,7 +57,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 1</p>
-                      <CardTitle tag="p">JUAN PEREZ</CardTitle>
+                      <CardTitle tag="p">MIGUEL MORAN</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -70,7 +72,7 @@ function Dashboard() {
                   className="simple-text logo-mini"
                 >
                   <div className="logo-img">
-                    <img src={hombre} alt="react-logo" />
+                    <img src={miguelmoran} alt="react-logo" />
                   </div>
                 </a>
               </CardFooter>
@@ -89,7 +91,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 2</p>
-                      <CardTitle tag="p">SANDRA LÓPEZ</CardTitle>
+                      <CardTitle tag="p">KENNYA ORONA</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -104,7 +106,7 @@ function Dashboard() {
                   className="simple-text logo-mini"
                 >
                   <div className="logo-img">
-                    <img src={mujer} alt="react-logo" />
+                    <img src={kennyny} alt="react-logo" />
                   </div>
                 </a>
               </CardFooter>
