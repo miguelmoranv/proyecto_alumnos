@@ -18,50 +18,43 @@
 */
 import React from "react";
 // react plugin used to create charts
-import hombre from "hombre.png";
-import { Line, Pie } from "react-chartjs-2";
-import adalid from "../assets/alumnos/Adalid Herrera Ruiz_.jpg";
-import alondra from "../assets/alumnos/Alo_Mtz.jpg";
-import arturo from "../assets/alumnos/ArturoGarcia.jpeg";
-import castro from "../assets/alumnos/Castro.jpeg";
-import compean from "../assets/alumnos/CompeanMacias.jpeg";
-import jp from "../assets/alumnos/ContrerasVasquez.jpeg";
-import davila from "../assets/alumnos/dávila.jpeg";
-import eduardo from "../assets/alumnos/Eduardo_Garcia.png";
-import diego from "../assets/alumnos/Elizalde Diego.jpeg";
-import erick from "../assets/alumnos/ErickMeraz.jpeg";
-import evelyn from "../assets/alumnos/EvelynGallegos.jpg";
-import fer from "../assets/alumnos/Fernanda_Santillan.jpg";
-import gustavo from "../assets/alumnos/GustavoHeredia.jpg";
-import haro from "../assets/alumnos/Haro.jpg";
-import hector from "../assets/alumnos/Hector.png";
-import jared from "../assets/alumnos/JaredFrias.jpg";
-import jessica from "../assets/alumnos/jessicontreras.jpg";
-import kennya from "../assets/alumnos/Kennya_prof.jpg";
-import martin from "../assets/alumnos/MartinMoreno.png";
-import moran from "../assets/alumnos/miguelmoranv.jpg";
-import martha from "../assets/alumnos/Roman.jpg";
-import uriel from "../assets/alumnos/Urielgonzalez.PNG";
-import yahir from "../assets/alumnos/YahirHernandez.jpeg";
+import adalid from "../assets/alumnos/Adalid Herrera Ruiz_.jpg"
+import alondra from "../assets/alumnos/Alo_Mtz.jpg"
+import arturo from "../assets/alumnos/ArturoGarcia.jpeg"
+import davila from "../assets/alumnos/dávila.jpeg"
+import castro from "../assets/alumnos/Castro.jpeg"
+import diego from "../assets/alumnos/Elizalde Barboza Diego Efren.jpeg"
+import evelyn from "../assets/alumnos/EvelynGallegos.jpg"
+import fer from "../assets/alumnos/Fernanda_Santillan.jpg"
+import haro from "../assets/alumnos/Haro.jpg"
+import hector from "../assets/alumnos/Hector.png"
+import jared from "../assets/alumnos/JaredFrias.jpg"
+import kennya from "../assets/alumnos/Kennya_prof.jpg"
+import martin from "../assets/alumnos/MartinMoreno.png"
+import moran from "../assets/alumnos/miguelmoranv.jpg"
+import uriel from "../assets/alumnos/Urielgonzalez.PNG"
+import yahir from "../assets/alumnos/YahirHernandez.jpeg"
+import eduardo from "../assets/alumnos/Eduardo_Garcia.png"
+import jessica from "../assets/alumnos/jessicontreras.jpg"
+import compean from "../assets/alumnos/CompeanMacias.jpeg"
+import erick from "../assets/alumnos/ErickMeraz.jpeg"
+import gustavo from "../assets/alumnos/GustavoHeredia.jpg"
+import martha from "../assets/alumnos/Roman.jpg"
+import jp from "../assets/alumnos/ContrerasVasquez.jpeg"
 
-import 'assets/css/img.css'
+
 
 // reactstrap components
 import {
   Card,
   CardBody,
   CardFooter,
-  CardHeader,
   CardTitle,
-  Col,
-  Row
+  Row,
+  Col
 } from "reactstrap";
 // core components
-import {
-  dashboard24HoursPerformanceChart,
-  dashboardEmailStatisticsChart,
-  dashboardNASDAQChart
-} from "variables/charts.js";
+import "../assets/css/img.css";
 
 function Dashboard() {
   return (
@@ -80,7 +73,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 1</p>
-                      <CardTitle tag="p">ADALID HERRERA</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">ADALID HERRERA</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -114,7 +107,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 2</p>
-                      <CardTitle tag="p">ALONDRA MARTINEZ</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">ALONDRA MARTINEZ</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -147,7 +140,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 3</p>
-                      <CardTitle tag="p">ARTURO GARCIA</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">ARTURO GARCIA</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -162,7 +155,7 @@ function Dashboard() {
                   className="simple-text logo-mini"
                 >
                   <div className="images">
-                    <img src={arturo} alt="react-logo" />
+                    <img src={arturo} alt="react-logo" className="img-fluid"/>
                   </div>
                 </a>
               </CardFooter>
@@ -180,7 +173,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 4</p>
-                      <CardTitle tag="p">LUIS CASTRO</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">LUIS CASTRO</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -213,7 +206,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 5</p>
-                      <CardTitle tag="p">DAVID DÁVILA</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">DAVID DÁVILA</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -246,7 +239,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 6</p>
-                      <CardTitle tag="p">DIEGO ELIZALDE</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">DIEGO ELIZALDE</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -279,7 +272,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 7</p>
-                      <CardTitle tag="p">EVELYN GALLEGOS</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">EVELYN GALLEGOS</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -312,7 +305,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 8</p>
-                      <CardTitle tag="p">FERNANDA SANTILLAN</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">FERNANDA SANTILLAN</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -345,7 +338,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 9</p>
-                      <CardTitle tag="p">JOCELYN HARO</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">JOCELYN HARO</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -378,7 +371,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 10</p>
-                      <CardTitle tag="p">HECTOR GALARZA</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">HECTOR GALARZA</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -411,7 +404,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 11</p>
-                      <CardTitle tag="p">JARED FRIAS</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">JARED FRIAS</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -444,7 +437,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 12</p>
-                      <CardTitle tag="p">KENNYA ORONA</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">KENNYA ORONA</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -477,7 +470,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 13</p>
-                      <CardTitle tag="p">MARTIN MORENO</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">MARTIN MORENO</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -510,7 +503,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 14</p>
-                      <CardTitle tag="p">MIGUEL MORAN</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">MIGUEL MORAN</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -543,7 +536,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 15</p>
-                      <CardTitle tag="p">URIEL GONZALEZ</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">URIEL GONZALEZ</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -576,7 +569,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 16</p>
-                      <CardTitle tag="p">YAHIR HERNANDEZ</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">YAHIR HERNANDEZ</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -609,7 +602,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 17</p>
-                      <CardTitle tag="p">EDUARDO GARCIA</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">EDUARDO GARCIA</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -642,7 +635,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 18</p>
-                      <CardTitle tag="p">JESSICA CONTRERAS</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">JESSICA CONTRERAS</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -675,7 +668,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 18</p>
-                      <CardTitle tag="p">JUAN CONTRERAS</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">JUAN CONTRERAS</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -708,7 +701,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 20</p>
-                      <CardTitle tag="p">DANIEL COMPEAN</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">DANIEL COMPEAN</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -741,7 +734,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 21</p>
-                      <CardTitle tag="p">GUSTAVO HEREDIA</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">GUSTAVO HEREDIA</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -774,7 +767,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 22</p>
-                      <CardTitle tag="p">MARTHA ROMAN</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">MARTHA ROMAN</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -807,7 +800,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">ALUMNO 23</p>
-                      <CardTitle tag="p">ERICK MERAZ</CardTitle>
+                      <CardTitle tag="p" className="card-title-custom">ERICK MERAZ</CardTitle>
                       <p />
                     </div>
                   </Col>
