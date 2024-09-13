@@ -1,0 +1,22 @@
+.images img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-title-custom {
+    font-size: 1rem; 
+  }
+  
+  @media (max-width: 768px) {
+    .card-title-custom {
+      font-size: 0.9rem; 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card-title-custom {
+      font-size: 0.8rem; 
+    }
+  }
+  
