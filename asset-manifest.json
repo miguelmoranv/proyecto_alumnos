@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/proyecto_alumnos/static/css/main.7d65a365.css",
+    "main.css": "/proyecto_alumnos/static/css/main.64074787.css",
     "main.js": "/proyecto_alumnos/static/js/main.8f1d0ac1.js",
     "static/media/EvelynGallegos.jpg": "/proyecto_alumnos/static/media/EvelynGallegos.d0321bacc9400a94093d.jpg",
     "static/media/Roman.jpg": "/proyecto_alumnos/static/media/Roman.ed1c6eedbf92de024b86.jpg",
@@ -38,7 +38,7 @@
     "index.html": "/proyecto_alumnos/index.html"
   },
   "entrypoints": [
-    "static/css/main.7d65a365.css",
+    "static/css/main.64074787.css",
     "static/js/main.8f1d0ac1.js"
   ]
 }
