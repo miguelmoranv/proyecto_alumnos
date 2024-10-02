@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/proyecto_alumnos/static/css/main.64074787.css",
-    "main.js": "/proyecto_alumnos/static/js/main.8f1d0ac1.js",
+    "main.js": "/proyecto_alumnos/static/js/main.80a3e66c.js",
     "static/media/EvelynGallegos.jpg": "/proyecto_alumnos/static/media/EvelynGallegos.d0321bacc9400a94093d.jpg",
     "static/media/Roman.jpg": "/proyecto_alumnos/static/media/Roman.ed1c6eedbf92de024b86.jpg",
     "static/media/Adalid Herrera Ruiz_.jpg": "/proyecto_alumnos/static/media/Adalid Herrera Ruiz_.df9b51d7c2842bf53555.jpg",
@@ -39,6 +39,6 @@
   },
   "entrypoints": [
     "static/css/main.64074787.css",
-    "static/js/main.8f1d0ac1.js"
+    "static/js/main.80a3e66c.js"
   ]
 }
